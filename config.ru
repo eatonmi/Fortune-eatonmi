@@ -1,5 +1,9 @@
 require File.dirname(__FILE__) + "/fortune.rb"
 
-map "/" do
+#get '/' do
+# "Hello World!"
+#end
+
+map '/' do
  run Fortune
 end

@@ -11,3 +11,7 @@ Feature:  Random fortune
   Given I am on fortunes
   When I press "New Fortune"
   Then I should see a fortune
+ 
+ Scenario:  Get a specfic fortune
+  Given I am on fortunes
+
