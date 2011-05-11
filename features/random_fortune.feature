@@ -13,5 +13,5 @@ Feature:  Random fortune
   Then I should see a fortune
  
  Scenario:  Get a specfic fortune
-  Given I am on fortunes
-
+  Given I am on specific
+  Then I should see a fortune
