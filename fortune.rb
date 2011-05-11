@@ -9,6 +9,11 @@ get '/fortune/random/?' do
  haml :fortune
 end
 
+get '/fortune/get/:fid' do
+ doint = params[:fid].to_i
+ @fortune = $fortunes[doint]
+ haml :fortune
+end
 
 end
 
